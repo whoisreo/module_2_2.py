@@ -1,13 +1,13 @@
 print("Введите три целых числа ")
 
 f = int(input("Введите число :"))
-first = [f]
+first = f
 
 s = int(input("Введите число : "))
-second = [s]
+second = s
 
 t = int(input("Введите число : "))
-third = [t]
+third = t
 
 if first == second == third:
     print(3)
