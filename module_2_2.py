@@ -1,13 +1,7 @@
 print("Введите три целых числа ")
-
-f = int(input("Введите число : "))
-first = f
-
-s = int(input("Введите число : "))
-second = s
-
-t = int(input("Введите число : "))
-third = t
+first = int(input("Введите число : "))
+second = int(input("Введите число : "))
+third = int(input("Введите число : "))
 
 if first == second == third:
     print(3)
